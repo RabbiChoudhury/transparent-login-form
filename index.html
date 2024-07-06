@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Transparent Login Form">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <title>Transparent Login Form</title>
+</head>
+
+<body>
+  <div class="bgimg">
+    <div class="content">
+      <header>Login</header>
+      <form action="#">
+        <div class="field">
+          <span class="fa fa-user"></span>
+          <input type="text" required placeholder="Email of Phone">
+
+        </div>
+        <div class="field space">
+          <span class="fa fa-lock"></span>
+          <input type="password" class="pass-key" required placeholder="Password">
+          <span class="show">SHOW</span>
+        </div>
+        <div class="pass">
+          <a href="#">Forget Password</a>
+          <p id="alart"></p>
+        </div>
+        <div class="field">
+          <input type="submit" value="LOGIN">
+        </div>
+      </form>
+      <div class="login">Or login with</div>
+      <div class="links">
+        <div class="facebook">
+          <i class="fab fa-facebook-f"></><span>Facebook</span></i>
+        </div>
+        <div class="instagram">
+          <i class="fab fa-instagram"><span>Instragram</span></i>
+        </div>
+      </div>
+      <div class="singup">Don't have account ?
+        <a href="#">Signup Now</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="login.js"></script>
+</body>
+
+</html>
